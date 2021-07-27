@@ -30,9 +30,14 @@ Examples:
  |weekday |   guy     |
  |tenpm   | watchmen  |
  |ninepm  |  cabdriver|
+ 
+ 
+ 
 
 
-
+Given we work in "<weekday>"
+When we meet "<guy">
+Then I skipGreeting him
     
 
 				
